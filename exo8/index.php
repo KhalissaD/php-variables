@@ -26,6 +26,15 @@
             $numb45 = 45;
             $again5 = 5;
             echo $numb45 / $again5;
+            echo '<br>';
+
+            // Optimisation
+
+            $resultAddition = 3 + 4;
+            $resultMultiplication = 5 * 20;
+            $resultDivision = 45 / 5;
+            echo "$resultAddition, $resultMultiplication, $resultDivision";
+
         ?>
     </body>
 </html>
