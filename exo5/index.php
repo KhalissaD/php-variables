@@ -7,13 +7,13 @@
 
     <body>
         <h1>Exo 5 PHP</h1>
-        <p>Créer une variable de type string, l'initialiser avec <b>rien</b>. Afficher sa valeur.<br>Donner une valeur à cette variable et l'afficher.</p>
+        <p>Créer une variable de type int, l'initialiser avec <b>rien</b>. Afficher sa valeur.<br>Donner une valeur à cette variable et l'afficher.</p>
 
         <?php
-            $string = '';
-            echo $string;
-            $string = 'hello';
-            echo $string;
+           (int)$typeInt = 0;
+           var_dump($typeInt);
+           settype($typeInt, "string");
+           var_dump($typeInt);
         ?>
     </body>
 </html>
